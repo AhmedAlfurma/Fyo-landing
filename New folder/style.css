@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+:root {
+  --dark: #070439;
+  --bg-email: #585989;
+  --blue: #3065f8;
+  --green: #3c9f8f;
+  --light: #f8f8fe;
+  --gray: #bfbfbf;
+}
+.bg-blue {
+  background-color: var(--blue) !important;
+}
+.c-dark {
+  color: var(--dark) !important;
+}
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+.bg-email {
+  background-color: var(--bg-email) !important;
+}
+.bg-light {
+  background-color: var(--light) !important;
+}
+.c-green {
+  color: var(--green) !important;
+}
+.border-green {
+  border-color: var(--green) !important;
+}
+.border-dark {
+  border-color: var(--dark) !important;
+}
+.ff-head {
+  font-family: "Raleway", sans-serif !important;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.productive {
+  background: url("../imgs/bg-curve-desktop.svg") no-repeat center top;
+}
+.h-blue:hover {
+  transition: 0.3s;
+  border-color: var(--blue) !important;
+  color: var(--blue) !important;
+  background-color: transparent !important;
+}
+@media (max-width: 991px) {
+  .input-width {
+    width: 250px !important;
+    margin: 0 auto;
+  }
+}
